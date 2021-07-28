@@ -27,7 +27,7 @@ echo “All fields are required, please fill <a href=\”\”>the form</a> again
 else
 $from=”From: $name\r\nReturn-path: $email”;
 $subject=“Message sent using your contact form”;
-mail(“youremail@yoursite.com”, $subject, $message, $from);
+mail(aherpranjal7@gmail.com, $subject, $message, $from);
 echo “Email sent!”;
 }
 }
